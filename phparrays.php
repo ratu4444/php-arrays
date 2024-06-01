@@ -1,5 +1,3 @@
-
-
 //        PHP ARRAYS
 
 //        What is ARRAY?
@@ -12,6 +10,13 @@
 //        Example of an ITEM:
 //        $super_store_employees = ['Jonas', 'Meteo', 'Glen', 'Dina', 'Sandra', 'Cheyne', 'Amy', 'Marcus', 'Gareet'];
 //        In this array 'Jonas' is an item, Dina is an item.
+
+//        What is Element?
+//        Ans: In the context of an array, an "element" refers to each individual value or data item stored within the array.
+//        For example, in the array ["A", "B", "C"], each letter ("A", "B", and "C") is an element of the array. Similarly, in the array [1, 2, 3, 4], each number (1, 2, 3, and 4) is an element of the array.
+
+//        Difference between Element and Item?
+//        Ans: In the context of arrays, the terms "element" and "item" are often used interchangeably to refer to individual values stored within the array. Both terms convey the same meaning and are used to describe the individual data entities contained within an array.
 
 //        What id INDEX?
 //        Ans: The position of an item within an array. Indexing typically starts at 0 in many programming languages, so the first item is at index 0, the second item is at index 1, and so on.
@@ -29,56 +34,9 @@
 //        Add a value in an Indexed Array.
 //        $super_store_employees[] =  'something';
 
-//        What is var_dump?
-//        Ans: var_dump is a function commonly used in PHP that displays structured information (including type and value) about one or more variables. It is particularly useful for debugging purposes because it provides detailed information about the data, including nested arrays and objects.
-
-//        Example of var_dump?
-//        var_dump($super_store_employees);
-
-//        What is print_r?
-//        Ans: print_r is a function in PHP that prints human-readable information about a variable. print_r focuses on readability, making it useful for quickly viewing the contents of arrays and objects in a more straightforward format.
-//        print_r(count($super_store_employees));
-
-$super_store_employees_indexed = ['Jonas', 'Meteo', 'Glen', 'Dina', 'Sandra', 'Cheyne', 'Amy', 'Marcus', 'Gareet'];
-
-//        Using array push function we can add more data in Indexed Array. Also, we can add multiple data at a time.
-array_push($super_store_employees_indexed, 'Jerry', 'Yo', 'Bo');
-
-//        print_r($super_store_employees);
 
 
 
-//        What is ASSOCIATIVE ARRAY?
-//        Ans: An associative array is a data structure that stores data in key-value pairs, where each key is unique and is used to retrieve the corresponding value.
-
-//        Example of an Associative Array.
-$super_store_employees = ["Amy"=>"Jonas", "Glenn"=>"Jerusha", "Dina"=>"Garet", "Sandra"=>"Jerry", "Meteo"=>"Jeff", "Cheyene"=>"Bo"];
-
-//        In this Associative Array "AMY" is key and "Jonas" is value.
-
-//        Access Associative Array using key.
-//        print_r($car['Amy']);
-
-//        Change the value.
-//        $super_store_employees['Glenn'] =  'Dina';
-//        print_r($super_store_employees);
-
-//        Add multiple data is Associative Array using += operator.
-$super_store_employees += ['Sakib' => 'Mim'];
-//        print_r($super_store_employees);
-
-//        We can a remove an array item using array_splice() function.
-//        array_splice($super_store_employees, 3, 1);
-//        array_splice($array, offset, length) function contain 4 parameter: 1. array: The input array. 2. offset: The position in the array where the removal or insertion starts. 3. length (optional): The number of elements to remove. If omitted, all elements from the offset to the end of the array are removed. 4. replacement (optional): An array of elements to insert into the array at the specified offset. If not provided, no elements are inserted.
-//        print_r($super_store_employees);
-
-//        unset() function use to unset a value in a array. unset() function can unset single or multiple item.
-//        unset($super_store_employees['Amy'], $super_store_employees['Glenn']);
-//        print_r($super_store_employees);
-
-//        array_diff() function used to delete an item in Associative Array. This function returns a new array, without the specified items. This function takes values as parameters, and not keys.
-$left_employees = array_diff($super_store_employees, ['Garet', 'Jerry']);
-//        print_r($left_employees);
 
 //        Remove the last item of an array using array_pop().
 //        array_pop($super_store_employees);
