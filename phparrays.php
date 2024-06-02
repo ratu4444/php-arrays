@@ -25,72 +25,7 @@
 //        $super_store_employees = [1 => 'Jonas', 2 => 'Meteo', 3 => 'Glen', 4 => 'Dina', 5 => 'Sandra', 6 => 'Cheyne', 7 => 'Amy', 8 => 'Marcus', 9 =>  'Gareet'];
 //        In this array 1, 2 ,3 ...9 is index.
 
-//        What is INDEXED ARRAY?
-//        Ans:  In indexed arrays each item has an index number. By default, the first item has index 0, the second item has item 1.
 
-//        Example of a INDEXED ARRAY.
-//        $super_store_employees = ['Jonas', 'Meteo', 'Glen', 'Dina', 'Sandra', 'Cheyne', 'Amy', 'Marcus', 'Gareet'];
-
-//        Add a value in an Indexed Array.
-//        $super_store_employees[] =  'something';
-
-
-
-
-
-//        Remove the last item of an array using array_pop().
-//        array_pop($super_store_employees);
-//        print_r($super_store_employees);
-
-//        Remove the first item of an array using array_shift().
-//        array_shift($super_store_employees);
-//        print_r($super_store_employees);
-
-//        ARRAY SORTING
-
-//        sort() use for sort Indexed Array in ascending order.
-sort($super_store_employees_indexed);
-//        print_r($super_store_employees_indexed);
-
-//        rsort() use for sort Indexed Array in descending order.
-rsort($super_store_employees_indexed);
-//        print_r($super_store_employees_indexed);
-
-//        asort() use for sort Associative Array in ascending order, according to the key.
-asort($super_store_employees);
-//        print_r($super_store_employees);
-
-//        asort() use for sort Associative Array in ascending order, according to the value.
-asort($super_store_employees);
-//        print_r($super_store_employees);
-
-//        arsort() use for sort Associative Array in descending order, according to the value.
-arsort($super_store_employees);
-//        print_r($super_store_employees);
-
-//        ksort() use for sort Associative Array in ascending order, according to the key.
-ksort($super_store_employees);
-//        print_r($super_store_employees);
-
-//        krsort() use for sort Associative Array in descending order, according to the key.
-krsort($super_store_employees);
-//        print_r($super_store_employees);
-
-//        MULTIDIMENSIONAL ARRAY
-
-//        What is Multidimensional Array?
-//        Ans: A multidimensional array is an array containing one or more arrays.
-
-//        Example of Multidimensional Array:
-$cars =[
-["Volvo",22,18],
-["BMW",15,13],
-["Saab",5,2],
-["Land Rover",17,15]
-];
-
-//        Access Multidimensional Array Data.
-//        print_r($cars[0][0]);
 
 //        There are lots of array function for manipulate array. They are:
 //        array()	Creates an array
